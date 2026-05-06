@@ -13,7 +13,7 @@ RUN dnf update -y && \
         nano \
         libicu \
         libicu-devel \
-        java-21-openjdk \
+        java-25-openjdk \
         python3 \
         ninja-build \
     && dnf clean all

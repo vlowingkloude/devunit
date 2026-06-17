@@ -16,6 +16,7 @@ RUN dnf update -y && \
         java-25-openjdk \
         python3 \
         ninja-build \
+        perf \
     && dnf clean all
 
 RUN ssh-keygen -A
